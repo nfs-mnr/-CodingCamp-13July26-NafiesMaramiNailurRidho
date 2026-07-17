@@ -1,0 +1,376 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold the three static files": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279214062
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279226002
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279394136
+      }
+    ],
+    "2.1 Implement `Storage.KEYS`, `Storage.read()`, `Storage.write()`, and `Storage.showError()`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215300
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279403612
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279467085
+      }
+    ],
+    "3.1 Implement `Greeting.init()`, `Greeting.render()`, `Greeting.getGreeting(hour)`, `Greeting.formatTime(date)`, `Greeting.formatDate(date)`, and `Greeting.tick()`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215374
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279477004
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279618252
+      }
+    ],
+    "4.1 Implement `FocusTimer.init()`, `FocusTimer.start()`, `FocusTimer.stop()`, `FocusTimer.reset()`, `FocusTimer.tick()`, `FocusTimer.render()`, and `FocusTimer.formatTime(seconds)`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215430
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279642517
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279731073
+      }
+    ],
+    "5. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215475
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279749487
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279881503
+      }
+    ],
+    "6.1 Implement `TodoList.generateId()`, `TodoList.validate()`, `TodoList.load()`, `TodoList.save()`, `TodoList.render()`, and `TodoList.renderTask(task)`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215519
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279888105
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784280031782
+      }
+    ],
+    "6.2 Implement `TodoList.add()`, `TodoList.toggleDone()`, and `TodoList.delete()`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215564
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784280037028
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784280120652
+      }
+    ],
+    "6.3 Implement `TodoList.beginEdit()`, `TodoList.saveEdit()`, and `TodoList.cancelEdit()`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215609
+      },
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784280125592
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784280789772
+      }
+    ],
+    "7. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215653
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784280803364
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784280971949
+      }
+    ],
+    "8.1 Implement `QuickLinks.validateLabel()`, `QuickLinks.validateUrl()`, `QuickLinks.load()`, `QuickLinks.save()`, `QuickLinks.render()`, and `QuickLinks.renderLink(link)`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215703
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784280978873
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281776212
+      }
+    ],
+    "8.2 Implement `QuickLinks.add()` and `QuickLinks.delete()`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215749
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281781022
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281785583
+      }
+    ],
+    "9.1 Write the full `css/style.css`": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215803
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281790040
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281795173
+      }
+    ],
+    "10. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279215867
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281805189
+      },
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281809409
+      }
+    ],
+    "2. Implement the Storage module": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279467131
+      }
+    ],
+    "3. Implement the Greeting widget": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279618326
+      }
+    ],
+    "4. Implement the Focus Timer": [
+      {
+        "executionId": "1950c197-aeb8-46a7-ae78-c83e4386657c",
+        "chatSessionId": "sess_985db94c-f97d-4c1c-92a4-59183b95f108",
+        "timestamp": 1784279731121
+      }
+    ],
+    "6. Implement the To-Do List module": [
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784280789894
+      }
+    ],
+    "8. Implement the Quick Links module": [
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281785654
+      }
+    ],
+    "9. Implement responsive CSS layout and visual styling": [
+      {
+        "executionId": "9e5c8829-c318-4966-83af-042da1d1466a",
+        "chatSessionId": "sess_9e6f2a52-9367-4aa3-be8f-e37f8180ad78",
+        "timestamp": 1784281795278
+      }
+    ],
+    "2.2 Write property test for Task serialization round-trip": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281853106
+      },
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281916770
+      }
+    ],
+    "2.3 Write property test for Link serialization round-trip": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281857231
+      },
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281921434
+      }
+    ],
+    "3.2 Write property test for Greeting exhaustive and non-overlapping mapping": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281861395
+      }
+    ],
+    "3.3 Write unit tests for Greeting pure functions": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281865585
+      }
+    ],
+    "4.2 Write property test for Focus Timer format": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281869821
+      }
+    ],
+    "4.3 Write unit tests for Focus Timer pure functions": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281874245
+      }
+    ],
+    "6.4 Write property test for Task description validation": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281878948
+      }
+    ],
+    "6.5 Write property test for task insertion order preservation": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281883165
+      }
+    ],
+    "6.6 Write property test for toggle done involution": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281887846
+      }
+    ],
+    "6.7 Write property test for delete removes exactly one task": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281892402
+      }
+    ],
+    "6.8 Write property test for add valid task grows list by one": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281896837
+      }
+    ],
+    "6.9 Write unit tests for TodoList pure functions": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281901178
+      }
+    ],
+    "8.3 Write property test for Quick Links URL and label validation": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281905634
+      }
+    ],
+    "8.4 Write unit tests for QuickLinks validation": [
+      {
+        "executionId": "b090698d-c5ef-47c8-b036-e17ebd427552",
+        "chatSessionId": "sess_efa65222-1b39-4951-827e-cb849d2ad290",
+        "timestamp": 1784281909933
+      }
+    ]
+  }
+}

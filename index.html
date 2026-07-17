@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do Life Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Anti-FOUC: terapkan tema gelap sebelum render pertama -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('tdld_theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) { /* localStorage tidak tersedia */ }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Storage Error Banner -->
+  <div id="storage-error-banner" hidden>
+    <span id="storage-error-message"></span>
+    <button id="storage-error-close" aria-label="Tutup notifikasi error">&times;</button>
+  </div>
+
+  <!-- Header dengan Theme Toggle -->
+  <header id="app-header">
+    <h1>To-Do Life Dashboard</h1>
+    <button id="theme-toggle" aria-label="Aktifkan mode gelap">🌙 Mode Gelap</button>
+  </header>
+
+  <!-- Dashboard Grid -->
+  <main id="dashboard-grid">
+
+    <!-- Widget: Greeting -->
+    <section id="greeting-widget" class="widget" aria-label="Sapaan">
+      <p id="greeting-time"></p>
+      <p id="greeting-date"></p>
+      <h2 id="greeting-text"></h2>
+    </section>
+
+    <!-- Widget: Focus Timer -->
+    <section id="focus-timer" class="widget" aria-label="Focus Timer">
+      <h2>Waktu Fokus</h2>
+      <div id="timer-display">25:00</div>
+      <div id="timer-finished-banner" hidden>Sesi selesai! Kerja bagus 🎉</div>
+      <div class="timer-controls">
+        <button id="timer-start">Mulai</button>
+        <button id="timer-stop" disabled>Berhenti</button>
+        <button id="timer-reset">Reset</button>
+      </div>
+      <!-- Timer Duration Control -->
+      <div id="timer-duration-row">
+        <label for="timer-duration-input">Durasi:</label>
+        <input
+          id="timer-duration-input"
+          type="number"
+          min="1"
+          max="180"
+          value="25"
+          aria-label="Durasi timer dalam menit"
+        />
+        <button id="timer-duration-set">Set</button>
+        <span id="timer-duration-display">Durasi aktif: 25 menit</span>
+        <span id="timer-duration-error" class="field-error" hidden></span>
+      </div>
+    </section>
+
+    <!-- Widget: To-Do List -->
+    <section id="todo-list" class="widget" aria-label="Daftar Tugas">
+      <h2>Daftar Tugas</h2>
+      <form id="todo-form">
+        <input
+          id="todo-input"
+          type="text"
+          maxlength="200"
+          placeholder="Tambah tugas baru…"
+          aria-label="Deskripsi tugas"
+        />
+        <button type="submit">Tambah</button>
+      </form>
+      <span id="todo-input-error" class="field-error" role="alert" aria-live="polite"></span>
+      <ul id="todo-list-items" aria-label="Daftar tugas"></ul>
+    </section>
+
+    <!-- Widget: Quick Links -->
+    <section id="quick-links" class="widget" aria-label="Tautan Cepat">
+      <h2>Tautan Cepat</h2>
+      <form id="link-form">
+        <input
+          id="link-label-input"
+          type="text"
+          maxlength="50"
+          placeholder="Label"
+          aria-label="Label tautan"
+        />
+        <span id="link-label-error" class="field-error" role="alert" aria-live="polite"></span>
+        <input
+          id="link-url-input"
+          type="url"
+          maxlength="2048"
+          placeholder="https://…"
+          aria-label="URL tautan"
+        />
+        <span id="link-url-error" class="field-error" role="alert" aria-live="polite"></span>
+        <button type="submit">Tambah Tautan</button>
+      </form>
+      <div id="link-buttons" aria-label="Tautan tersimpan"></div>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
